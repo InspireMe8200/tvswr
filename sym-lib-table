@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "t-vswr-lib") (type "KiCad") (uri "${KIPRJMOD}/t-vswr-lib.kicad_sym") (options "") (descr "t-vswr project symbols: AD8307, KTA1136"))
+)

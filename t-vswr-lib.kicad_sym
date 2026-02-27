@@ -1,0 +1,252 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator kicad_symbol_editor)
+	(generator_version "8.0")
+
+	(symbol "AD8307"
+		(pin_names (offset 1.016))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "AD8307"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8307.pdf"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "DC to 500 MHz, 92 dB Logarithmic Amplifier"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "AD8307ARZ"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "AD8307_0_1"
+			(rectangle
+				(start -5.08 -5.08)
+				(end 5.08 5.08)
+				(stroke (width 0) (type default))
+				(fill (type background))
+			)
+		)
+		(symbol "AD8307_1_1"
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "INP" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "INM" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "INT" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 10.16 2.54 180)
+				(length 5.08)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "ENB" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 5.08)
+				(name "OFS" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 5.08)
+				(name "VPS" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 5.08)
+				(name "COM" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+
+	(symbol "KTA1136"
+		(pin_names (offset 1.016))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 17.78 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "KTA1136"
+			(at 0 -17.78 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_4x4mm_P0.65mm_EP2.65x2.65mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "https://www.kinet-ic.com/uploads/KTA1136-04a_Datasheet_Brief.pdf"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "IEEE 802.3af PoE PD with Integrated DC-DC Controller and 13W Power FET, TQFN-16 4x4mm"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "KTA1136EUAE-TR"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Manufacturer" "Kinetic Technologies"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "ki_keywords" "PoE PD 802.3af buck converter MOSFET integrated"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(symbol "KTA1136_0_1"
+			(rectangle
+				(start -7.62 -15.24)
+				(end 7.62 15.24)
+				(stroke (width 0) (type default))
+				(fill (type background))
+			)
+		)
+		(symbol "KTA1136_1_1"
+			(pin passive line
+				(at -12.7 12.7 0)
+				(length 5.08)
+				(name "SIG+" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at -12.7 10.16 0)
+				(length 5.08)
+				(name "SIG-" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at -12.7 7.62 0)
+				(length 5.08)
+				(name "AGND" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_out line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "VDD" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "SS" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "COMP" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 5.08)
+				(name "FB" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 5.08)
+				(name "FREQ" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 12.7 12.7 180)
+				(length 5.08)
+				(name "VCC" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 12.7 10.16 180)
+				(length 5.08)
+				(name "VCC" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 5.08)
+				(name "SW" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "SW" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "PGND" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "PGND" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "ENB" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at 12.7 -5.08 180)
+				(length 5.08)
+				(name "NC" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_in line
+				(at 0 -20.32 90)
+				(length 5.08)
+				(name "EP" (effects (font (size 1.27 1.27))))
+				(number "17" (effects (font (size 1.27 1.27))))
+			)
+		)
+	)
+
+)
